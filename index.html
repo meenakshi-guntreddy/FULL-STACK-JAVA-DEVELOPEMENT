@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multimedia Form</title>
+
+    <link rel="stylesheet"
+    href="styles/main.css">
+</head>
+
+<body>
+
+<h1>Student Registration Form</h1>
+
+<form id="myForm">
+
+<label>Name:</label>
+<input type="text" id="name" required>
+
+<br><br>
+
+<label>Email:</label>
+<input type="email" id="email" required>
+
+<br>
+
+<br><label>Gender:</label><br>
+
+<input type="radio" name="gender" value="Male"> Male
+
+<input type="radio" name="gender" value="Female"> Female<br>
+
+<br><label>Skills:</label><br>
+
+<input type="checkbox" value="HTML"> HTML
+
+<input type="checkbox" value="CSS"> CSS
+
+<input type="checkbox" value="JavaScript"> JavaScript<br>
+
+<br><label>Message:</label><br>
+<textarea rows="5" cols="30"></textarea>
+
+<h2>Our Location</h2>
+
+<iframe
+    src="https://www.google.com/maps?q=hyderabad&output=embed"
+    width="500"
+    height="300">
+</iframe><br>
+
+<audio id="audioPlayer" controls>
+    <source src="assets/audio.mp3" type="audio/mpeg">
+    
+</audio><br>
+
+<video id="videoPlayer" width="500" controls>
+    <source src="assets/video.mp4" type="video/mp4"><br>
+    
+</video><br><br>
+
+<div class="relative-box">
+    Relative Box
+</div>
+
+<div class="parent">
+
+    <div class="absolute-box">
+        Absolute Box
+    </div>
+
+</div>
+
+<div class="fixed-box">
+    Help
+</div>
+
+<div class="sticky-box">
+    Navigation Bar
+</div><br>
+
+<button type="submit">
+Submit
+</button>
+</form><br>
+
+<h2>Z-Index Demo</h2>
+
+<div class="z-container">
+    <div class="box1">Box 1</div>
+    <div class="box2">Box 2</div>
+</div>
+
+<script src="scripts/app.js"></script>
+
+<h2>Flexbox Demo</h2>
+
+<div class="flex-container">
+
+    <div class="flex-item">HTML</div>
+
+    <div class="flex-item">CSS</div>
+
+    <div class="flex-item">JavaScript</div>
+
+</div><br>
+<h2>Grid Demo</h2>
+
+<div class="grid-container">
+
+    <div class="grid-item">1</div>
+
+    <div class="grid-item">2</div>
+
+    <div class="grid-item">3</div>
+
+    <div class="grid-item">4</div>
+
+</div>
+
+
+</body>
+</html>
