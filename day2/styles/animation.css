@@ -1,0 +1,58 @@
+body{
+    font-family: Arial;
+    background-color: #f2f2f2;
+}
+
+.container{
+    width: 350px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* display block */
+input{
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+/* inline-block example */
+button{
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* display none */
+#hiddenText{
+    display: none;
+    color: green;
+    font-weight: bold;
+}
+
+#resultBox{
+    margin-top: 20px;
+    padding: 15px;
+    border: 2px solid black;
+}
+
+/* keyframe animation */
+
+@keyframes resultAnimation{
+
+    from{
+        transform: scale(0.8);
+    }
+
+    to{
+        transform: scale(1);
+    }
+}
+
+.animate{
+    animation: resultAnimation 0.5s ease;
+}

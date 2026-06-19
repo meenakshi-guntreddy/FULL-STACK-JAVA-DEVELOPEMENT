@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Calculator</title>
+
+    <link rel="stylesheet" href="styles/animation.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Simple Calculator</h1>
+
+        <input type="number" id="num1" placeholder="Enter First Number">
+
+        <input type="number" id="num2" placeholder="Enter Second Number">
+
+        <select id="operation">
+            <option value="+">Addition</option>
+            <option value="-">Subtraction</option>
+            <option value="*">Multiplication</option>
+            <option value="/">Division</option>
+        </select>
+
+        <br><br>
+
+        <button onclick="calculate()">Calculate</button>
+
+        <button onclick="clearResult()">Clear</button>
+
+        <div id="resultBox">
+            Result Will Display Here
+        </div>
+
+        <!-- display none example -->
+        <p id="hiddenText">
+            Calculation Completed Successfully
+        </p>
+
+    </div>
+
+    <script src="scripts/main.js"></script>
+
+</body>
+</html>
